@@ -34,6 +34,9 @@
                     <a href="/service.html">Services</a>
                     <a href="#">Contact</a>
                 </div>
+                <div class="nav_btn">
+                    <button>Sign in/Sign up</button>
+                </div>
             </div>
         </div>
         <div class="wrapper_inner">
@@ -75,7 +78,7 @@
                         <div class="body_inner">
                             <div class="messege_box">
                                 <div class="box_image">
-                                    <img src="images/client1.jpg" alt="">
+                                    <img src="images/profile-image.png" alt="">
                                 </div>
                                 <div class="box_content">
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, illo!</p>
@@ -83,7 +86,7 @@
                             </div>
                             <div class="messege_box">
                                 <div class="box_image">
-                                    <img src="images/client1.jpg" alt="">
+                                    <img src="images/profile-image.png" alt="">
                                 </div>
                                 <div class="box_content">
                                     <p>Lorem ipsum dolor sit!</p>
@@ -530,6 +533,18 @@
 
         video.addEventListener("ended", () => {
             playBtn.innerHTML = "▶";
+        });
+    </script>
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                navbar.classList.add('navbar_scrolled');
+            } else {
+                navbar.classList.remove('navbar_scrolled');
+            }
         });
     </script>
 </body>
