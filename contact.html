@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+    <!-- font awesome -->
+    <script src="js/fontawesome.js"></script>
+</head>
+
+<body>
+    <div class="page_wrapper">
+        <div class="navbar">
+            <div class="navbar_inner">
+                <div class="logo">
+                    <img src="images/logo-dark.webp" alt="">
+                </div>
+                <div class="nav_items">
+                    <a href="/index.html">Home</a>
+                    <a href="#">Why Us</a>
+                    <a href="/product.html">Product</a>
+                    <a href="/service.html">Services</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="nav_btn">
+                    <button>Sign in/Sign up</button>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper_inner">
+            <div class="service_background">
+                <img src="images/blog.jpg" alt="">
+            </div>
+            <div class="floating_icon_sec" id="chatToggle">
+                <!-- OPEN STATE -->
+                <div class="icon_box">
+                    <a><i class="fa-solid fa-message"></i></a>
+                    <p>How can i help you ?</p>
+                </div>
+
+                <!-- CLOSE STATE -->
+                <div class="icon_box inActive">
+                    <a>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                    <p>Close Chat</p>
+                </div>
+            </div>
+            <div class="floating_messege_sec" id="chatBox">
+                <div class="messege_inner">
+                    <div class="floating_heading">
+                        <div class="heading_content">
+                            <div class="head_image">
+                                <img src="images/zudav.png" alt="">
+                            </div>
+                            <div class="heading_item">
+                                <h6>CRM Assitent</h6>
+                                <p><span></span> Always Online</p>
+                            </div>
+                        </div>
+                        <div class="close_sec">
+                            <a id="chatClose"><i class="fa-solid fa-xmark"></i></a>
+                        </div>
+                    </div>
+                    <div class="messege_body">
+                        <div class="body_inner">
+                            <div class="messege_box">
+                                <div class="box_image">
+                                    <img src="images/profile-image.png" alt="">
+                                </div>
+                                <div class="box_content">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, illo!</p>
+                                </div>
+                            </div>
+                            <div class="messege_box">
+                                <div class="box_image">
+                                    <img src="images/profile-image.png" alt="">
+                                </div>
+                                <div class="box_content">
+                                    <p>Lorem ipsum dolor sit!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messege_btn_sec">
+                        <div class="input_box">
+                            <input type="text" placeholder="Enter your text...">
+                            <span><i class="fa-solid fa-paper-plane"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_section">
+                <div class="home_inner">
+                    <div class="contact_heading_section">
+                        <h2>Contact <span>Us</span></h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et perferendis exercitationem
+                            natus. Tempora ipsa laudantium voluptate reprehenderit consequatur vero consectetur
+                            necessitatibus, totam facilis unde saepe commodi deleniti tempore in explicabo.</p>
+                    </div>
+                    <div class="contact_us_section">
+                        <div class="sec_head">
+                            <a>--Contact Us</a>
+                            <h3>Get You Free <span>Qoute Today!</span></h3>
+                        </div>
+                        <div class="contact_sec_content">
+                            <div class="contact_form">
+                                <form action="">
+                                    <div class="input_box halfwidth">
+                                        <span>Your Name*</span>
+                                        <input type="text" placeholder="Enter your name">
+                                    </div>
+                                    <div class="input_box halfwidth">
+                                        <span>Email*</span>
+                                        <input type="text" placeholder="Enter your email">
+                                    </div>
+                                    <div class="input_box halfwidth">
+                                        <span>Phone*</span>
+                                        <input type="text" placeholder="Enter your phone number">
+                                    </div>
+                                    <div class="input_box halfwidth">
+                                        <span>Service*</span>
+                                        <input type="text" placeholder="Enter your name">
+                                    </div>
+                                    <div class="input_box fullwidth">
+                                        <span>Your Messege*</span>
+                                        <textarea name="" id="" placeholder="Enter here..."></textarea>
+                                    </div>
+                                    <div class="btn_sec">
+                                        <button>Send Messege</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="contact_items">
+                                <div class="item_box">
+                                    <h6>Address</h6>
+                                    <li>
+                                        <p>Dharmanagar, North Tripura, 799250</p>
+                                    </li>
+                                </div>
+                                <div class="item_box">
+                                    <h6>Contact</h6>
+                                    <li>
+                                        <p>Phone : <span>+91 - 8119838806</span></p>
+                                        <p>Phone : <span>+91 - 8787847945</span></p>
+                                        <p>Email : <span>contact@webspec.in</span></p>
+                                    </li>
+                                </div>
+                                <div class="item_box">
+                                    <h6>Open Time</h6>
+                                    <li>
+                                        <p>Monday - Friday : <span>10:00am - 06:00pm</span></p>
+                                    </li>
+                                </div>
+                                <div class="item_box">
+                                    <h6>Open Time</h6>
+                                    <div class="social_media_sec">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map_sec">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14535.873602078438!2d92.14617020000574!3d24.382402651907682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3751ecf7b1984653%3A0x66d54d4ea5ea62e7!2sDharmanagar%2C%20Tripura%20799250!5e0!3m2!1sen!2sin!4v1768992054787!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="subscribe_sec">
+                        <div class="subscribe_heading">
+                            <a>--Our Newsletter</a>
+                            <h3>Subscribe <span>For IT Tips and Social Offer</span></h3>
+                        </div>
+                        <div class="subscribe_content">
+                            <div class="input_box">
+                                <a><i class="fa-solid fa-envelope"></i></a>
+                                <input type="text" placeholder="Enter your email...">
+                            </div>
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_top">
+                <div class="top_inner">
+                    <div class="left_part">
+                        <div class="footer_logo">
+                            <img src="images/logo-dark.webp" alt="">
+                        </div>
+                        <p>Wenspec Hub turns WhatsApp into a powerful CRM and marketing hub — manage messages,
+                            chatbots, automation and agents with ease across web and mobile.</p>
+                        <div class="left_part_item">
+                            <a>About Us</a>
+                            <a>Careers</a>
+                            <a>Contact Us</a>
+                            <a>Privacy</a>
+                            <a>Help</a>
+                        </div>
+                    </div>
+                    <div class="right_part">
+                        <div class="part_box">
+                            <h5>Contact</h5>
+                            <ul>
+                                <a href="#"><i class="fa-solid fa-phone"></i>+91 - 8119838806</a>
+                                <a href="#"><i class="fa-solid fa-phone"></i>+91 - 8787847945</a>
+                                <a href="#"><i class="fa-solid fa-envelope"></i>contact@webspec.in</a>
+                                <a href="#"><i class="fa-solid fa-location-dot"></i>Dharmanagar, North Tripura,
+                                    799250</a>
+                            </ul>
+                        </div>
+                        <div class="part_box">
+                            <h5>Get the App</h5>
+                            <ul>
+                                <span><img src="images/Google-Play-Store.svg" alt=""></span>
+                                <span><img src="images/App-Store.svg" alt=""></span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="bottom_inner">
+                    <p>Copyright 2024, All Rights Reserved.</p>
+                    <div class="social_media_sec">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                navbar.classList.add('navbar_scrolled');
+            } else {
+                navbar.classList.remove('navbar_scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
