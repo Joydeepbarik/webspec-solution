@@ -140,18 +140,16 @@
     right: 20px;
     z-index: 19;
     cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
     pointer-events: none;
-    transform: translateY(150px);
-    transition: all 0.5s ease;
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
 }
 .floating_messege_sec.active {
-    opacity: 1;
-    visibility: visible;
     pointer-events: initial;
-    transform: translateY(0);
-    transition: all 0.5s ease;
+    transform: scale(1);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
 }
 .floating_messege_sec .messege_inner {
     position: relative;
