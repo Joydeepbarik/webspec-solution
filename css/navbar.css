@@ -98,3 +98,45 @@
   font-weight: 500;
   letter-spacing: 1.5px;
 }
+
+@media (max-width: 1440px) {
+    .navbar .navbar_inner {
+        width: 1024px;
+    }
+}
+@media (max-width: 1099px) {
+    .navbar .navbar_inner {
+        width: 100%;
+        padding: 0 50px;
+    }
+    .navbar .navbar_inner .logo {
+        width: 140px;
+    }
+    .navbar .navbar_inner .nav_items a {
+        margin-right: 25px;
+        font-size: 13px;
+    }
+    .navbar .navbar_inner .nav_btn {
+        margin-left: 40px;
+    }
+    .navbar .navbar_inner .nav_btn button {
+        padding: 9px 15px;
+        font-weight: 400;
+    }
+}
+@media (max-width: 876px) {
+    .navbar .navbar_inner {
+        padding: 0 30px;
+    }
+    .navbar .navbar_inner .nav_items {
+        display: none;
+    }
+    .navbar .navbar_inner .nav_btn {
+        margin-left: auto;
+    }
+}
+@media (max-width: 678px) {
+    .navbar .navbar_inner {
+        padding: 0 15px;
+    }
+}
