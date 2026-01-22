@@ -18,11 +18,12 @@
     --grey-background-4: rgba(224, 225, 220, 1);
     --grey-background-5: rgba(217, 217, 217, 1);
     --modal-background: rgba(6, 6, 6, 0.492);
-    --theme-color: rgb(79, 172, 254);
+    --theme-color: rgb(11, 108, 143);
     --orange-color: rgb(249, 143, 14);
     --red-color: rgb(255, 0, 0);
     --theme-color-2: rgb(0, 242, 254);
-    --blue-color: #02083A
+    --blue-color: #02083A;
+    /* --blue-color: rgb(11, 108, 143); */
 
 }
 
@@ -153,7 +154,7 @@
 }
 .floating_messege_sec .messege_inner {
     position: relative;
-    width: 400px;
+    width: 360px;
     max-height: 100%;
     display: flex;
     flex-direction: column;
@@ -243,7 +244,7 @@
 .floating_messege_sec .messege_inner .messege_body .body_inner {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 270px;
     overflow: hidden;
     overflow-y: auto;
     scrollbar-width: none;
@@ -296,7 +297,6 @@
     width: auto;
     display: flex;
     padding: 10px;
-    /* border: 1px solid var(--gray-color); */
     font-size: 12px;
     color: var(--dark-color);
     background: var(--light-background);
@@ -337,7 +337,7 @@
     width: calc(100% - 40px);
     height: 100%;
     font-size: 12px;
-    color: var(--blue-color);
+    color: var(--dark-color);
     font-weight: 400;
     outline: none;
     background: transparent;
@@ -354,4 +354,86 @@
     cursor: pointer;
     justify-content: center;
     color: var(--theme-color);
+}
+
+
+@media (max-width: 678px) {
+    .background_overlay {
+        height: 400px;
+    }
+    .floating_icon_sec {
+        right: 10px;
+        bottom: 10px;
+        padding: 0;
+        border-radius: 50%;
+    }
+    .floating_icon_sec .icon_box a {
+        background: transparent;
+    }
+    .floating_icon_sec .icon_box p {
+        display: none;
+    }
+    .floating_messege_sec {
+        bottom: 50px;
+    }
+}
+@media (max-width: 575px) {
+    .floating_messege_sec .messege_inner .floating_heading {
+        padding: 7px 15px;
+    }
+    .floating_messege_sec .messege_inner .floating_heading .heading_content {
+        width: calc(100% - 35px);
+    }
+    .floating_messege_sec .messege_inner .floating_heading .heading_content .head_image {
+        width: 35px;
+        height: 35px;
+    }
+    .floating_messege_sec .messege_inner .floating_heading .heading_content .heading_item h6 {
+        font-size: 13px;
+    }
+    .floating_messege_sec .messege_inner .floating_heading .heading_content .heading_item p {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .floating_messege_sec .messege_inner .floating_heading .close_sec {
+        width: 35px;
+    }
+    .floating_messege_sec .messege_inner .floating_heading .close_sec a {
+        font-size: 14px;
+    }
+    .floating_messege_sec .messege_inner .messege_body {
+        padding: 10px 15px;
+    }
+    .floating_messege_sec .messege_inner .messege_body .body_inner .messege_box .box_image {
+        width: 30px;
+        height: 30px;
+    }
+    .floating_messege_sec .messege_inner .messege_body .body_inner .messege_box .box_content {
+        width: calc(100% - 30px);
+    }
+    .floating_messege_sec .messege_inner .messege_body .body_inner .messege_box .box_content p {
+        font-size: 11px;
+    }
+    .floating_messege_sec .messege_inner .messege_btn_sec {
+        padding: 7px 15px;
+    }
+    .floating_messege_sec .messege_inner .messege_btn_sec .input_box {
+        height: 35px;
+    }
+    .floating_messege_sec .messege_inner .messege_btn_sec .input_box input {
+        width: calc(100% - 35px);
+        font-size: 11px;
+    }
+    .floating_messege_sec .messege_inner .messege_btn_sec .input_box span {
+        width: 35px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 450px) {
+    .background_overlay {
+        height: 320px;
+    }
+    .floating_messege_sec {
+        right: 0;
+    }
 }

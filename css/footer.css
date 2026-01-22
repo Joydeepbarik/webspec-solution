@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
     background: var(--blue-color);
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .footer .footer_top {
     position: relative;
@@ -176,23 +176,79 @@
         width: 1024px;
     }
 }
+
 @media (max-width: 1099px) {
-    .footer .footer_top,
+    .footer .footer_top {
+        width: 100%;
+        padding: 20px 50px;
+    }
     .footer .footer_bottom {
         width: 100%;
-        padding: 0 50px;
+        padding: 15px 50px;
     }
 }
+
+@media (max-width: 991px) {
+    .footer .footer_top .top_inner {
+        flex-direction: column;
+    }
+    .footer .footer_top .top_inner .left_part {
+        width: 100%;
+        padding-right: 0;
+    }
+    .footer .footer_top .top_inner .left_part .left_part_item {
+        justify-content: flex-end;
+    }
+    .footer .footer_top .top_inner .right_part {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 876px) {
-    .footer .footer_top,
+    .footer .footer_top {
+        padding: 15px 30px;
+    }
     .footer .footer_bottom {
-        padding: 0 30px;
+        padding: 15px 30px;
     }
 }
+
 @media (max-width: 678px) {
-    .footer .footer_top,
+    .footer .footer_top {
+        padding: 15px;
+    }
     .footer .footer_bottom {
-        padding: 0 15px;
+        padding: 15px;
+    }
+    .footer .footer_top .top_inner .right_part .part_box:last-child {
+        align-items: flex-end;
+    }
+    .footer .footer_top .top_inner .right_part .part_box ul {
+        align-items: flex-end;
+    }
+
+    .footer .footer_top .top_inner .left_part p {
+        font-size: 12px;
+    }
+    .footer .footer_top .top_inner .left_part .left_part_item a {
+        font-size: 12px;
+    }
+    .footer .footer_top .top_inner .right_part .part_box h5 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .footer .footer_top .top_inner .right_part .part_box ul a {
+        margin-top: 12px;
+        font-size: 11px;
+    }
+
+    .footer .footer_bottom .bottom_inner p {
+        font-size: 10px;
+    }
+    .footer .footer_bottom .bottom_inner .social_media_sec a {
+        font-size: 13px;
+        margin-right: 12px;
     }
 }
 

@@ -345,3 +345,26 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+
+@media (max-width: 1440px) {
+    .home_section {
+        width: 1024px;
+    }
+}
+@media (max-width: 1099px) {
+    .home_section {
+        width: 100%;
+        padding: 0 50px;
+    }
+}
+@media (max-width: 876px) {
+    .home_section{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 678px) {
+    .home_section {
+        padding: 0 15px;
+    }
+}
