@@ -358,13 +358,165 @@
         padding: 0 50px;
     }
 }
+@media (max-width: 991px) {
+    .contact_us_section .sec_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 300px);
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 25px;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 300px;
+        padding: 15px;
+    }
+    .map_sec {
+        margin-top: 30px;
+    }
+
+    .subscribe_sec {
+        padding: 30px 0;
+    }
+    .subscribe_sec .subscribe_heading h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
 @media (max-width: 876px) {
     .home_section{
         padding: 0 30px;
     }
+    .contact_us_section .sec_head h3 {
+        font-size: 19px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box {
+        width: 100%;
+    }
+    .halfwidth {
+        width: 100%;
+    } 
+    .contact_us_section .contact_sec_content .contact_form form .input_box span {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box input {
+        height: 35px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box textarea {
+        height: 90px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .btn_sec button {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box li p {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        font-size: 14px;
+    }
+    .subscribe_sec .subscribe_heading h3 {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 260px);
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 260px;
+    } 
 }
 @media (max-width: 678px) {
     .home_section {
         padding: 0 15px;
+    }
+    .map_sec iframe {
+        height: 270px;
+    }
+    .service_background {
+        height: 280px;
+    }
+    .contact_heading_section {
+        height: 280px;
+    }
+    .contact_heading_section h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .contact_heading_section p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+@media (max-width: 575px) {
+    .contact_us_section .sec_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .contact_us_section .sec_head h3 {
+        font-size: 17px;
+    }
+    .contact_us_section .contact_sec_content {
+        flex-direction: column;
+        margin-top: 20px;
+    }    
+    .contact_us_section .contact_sec_content .contact_form {
+        width: 100%;
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 100%;
+        margin-top: 15px;
+    } 
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 14px;
+    }
+    .subscribe_sec .subscribe_heading a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .subscribe_sec .subscribe_heading h3 {
+        font-size: 17px;
+    }
+    .subscribe_sec .subscribe_content {
+        margin-top: 20px;
+    }
+    .subscribe_sec .subscribe_content .input_box {
+        height: 40px;
+    }
+    .subscribe_sec .subscribe_content .input_box a {
+        width: 25px;
+        font-size: 12px;
+    }
+    .subscribe_sec .subscribe_content .input_box input {
+        width: calc(100% - 25px);
+        font-size: 12px;
+    }
+    .subscribe_sec .subscribe_content button {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
     }
 }
