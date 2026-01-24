@@ -514,6 +514,10 @@
 }
 
 @media (max-width: 450px) {
+    .contact_heading_section h2 {
+        font-size: 23px;
+        font-weight: 500;
+    }
     .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
         width: 30px;
         height: 30px;

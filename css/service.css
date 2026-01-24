@@ -161,7 +161,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
 } 
 .technology_service_section .technology_heading {
     position: relative;
@@ -347,6 +347,11 @@
     font-size: 12px;
     color: var(--gray-color);
     font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* =========  contact_us_section ========== */
@@ -646,13 +651,351 @@
         padding: 0 50px;
     }
 }
+@media (max-width: 991px) {
+    .service_provide_section {
+        margin-top: 30px;
+    }
+    .service_provide_section .provide_heading h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .technology_service_section {
+        margin-top: 15px;
+    }
+    .technology_service_section .technology_heading h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .technology_service_section .technology_use_sec .tech_box {
+        width: 24%;
+    }
+
+    .needUs_section {
+        margin-top: 20px;
+    }
+    .needUs_section .needUs_heading h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .needUs_section .needs_content_sec {
+        flex-direction: column;
+    }
+    .needUs_section .needs_content_sec .need_left {
+        width: 100%;
+    }
+    .needUs_section .needs_content_sec .need_left .video_sec {
+        height: 300px;
+    }
+    .needUs_section .needs_content_sec .need_right {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .needUs_section .needs_content_sec .need_right .inner_right .inner_box {
+        width: 23%;
+        align-items: center;
+    }
+    .needUs_section .needs_content_sec .need_right .inner_right .inner_box p {
+        text-align: center;
+    }
+
+    .contact_us_section {
+        margin-top: 20px;
+    }
+    .contact_us_section .sec_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 300px);
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 25px;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .faq_section {
+        padding: 20px 0;
+    }
+    .faq_section .sec_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
 @media (max-width: 876px) {
     .home_section{
         padding: 0 30px;
     }
+    .service_provide_section .provide_heading h3 {
+        font-size: 19px;
+    }
+    .technology_service_section .technology_heading h3 {
+        font-size: 19px;
+    }
+    .needUs_section .needUs_heading h3 {
+        font-size: 19px;
+    }
+    .needUs_section .needs_content_sec .need_right .inner_right .inner_box {
+        width: 48.5%;
+    }
+
+    .contact_us_section .sec_head h3 {
+        font-size: 19px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box {
+        width: 100%;
+    }
+    .halfwidth {
+        width: 100%;
+    } 
+    .contact_us_section .contact_sec_content .contact_form form .input_box span {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box input {
+        height: 35px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box textarea {
+        height: 90px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .btn_sec button {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box li p {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        font-size: 14px;
+    }
+
+    .faq_section .sec_head h3 {
+        font-size: 19px;
+    }
+    .faq_section .faq_content_sec .faq_box {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_top h6 {
+        font-size: 13px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_top a {
+        font-size: 13px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_bottom p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .service_provide_section .servie_box_sec .sec_box {
+        width: 48%;
+    }
+
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 260px);
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 260px;
+    }
 }
 @media (max-width: 678px) {
+
+    .service_background {
+        height: 280px;
+    }
+    .service_heading_section {
+        height: 280px;
+    }
+    .service_heading_section h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .service_heading_section p {
+        font-size: 12px;
+        font-weight: 400;
+    }
     .home_section {
         padding: 0 15px;
+    }
+    .technology_service_section .technology_use_sec .tech_box {
+        width: 31.5%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .technology_service_section .technology_use_sec .tech_box a {
+        font-size: 17px;
+    }
+    .technology_service_section .technology_use_sec .tech_box p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .technology_service_section .technology_use_sec .tech_box span {
+        font-size: 15px;
+    }
+
+    .needUs_section .needs_content_sec .need_left .video_sec {
+        height: 235px;
+    }
+    .needUs_section .needs_content_sec .need_right {
+        margin-top: 15px;
+    }
+    .needUs_section .needs_content_sec .need_right .inner_right .inner_box a {
+        font-size: 18px;
+    }
+    .needUs_section .needs_content_sec .need_right .inner_right .inner_box h5 {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .needUs_section .needs_content_sec .need_right .inner_right .inner_box p {
+        font-size: 11px;
+    }
+
+    .faq_section .faq_content_sec .faq_box {
+        width: 100%;
+    }
+    .faq_section .faq_content_sec .faq_box:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 575px) {
+    .service_provide_section .provide_heading a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .service_provide_section .provide_heading h3 {
+        font-size: 17px;
+    }
+    .service_provide_section .servie_box_sec {
+        margin-top: 20px;
+    }
+    .service_provide_section .servie_box_sec .sec_box {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .service_provide_section .servie_box_sec .sec_box a {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .service_provide_section .servie_box_sec .sec_box h5 {
+        font-size: 14px;
+        margin: 4px 0;
+    }
+    .service_provide_section .servie_box_sec .sec_box p {
+        font-size: 12px;
+    }
+
+    .technology_service_section .technology_heading a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .technology_service_section .technology_heading h3 {
+        font-size: 17px;
+    }
+    .technology_service_section .technology_use_sec {
+        margin-top: 20px;
+    }
+
+    .needUs_section .needUs_heading a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .needUs_section .needUs_heading h3 {
+        font-size: 17px;
+    }
+    .needUs_section .needs_content_sec {
+        margin-top: 20px;
+    }
+
+    .contact_us_section .sec_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .contact_us_section .sec_head h3 {
+        font-size: 17px;
+    }
+    .contact_us_section .contact_sec_content {
+        flex-direction: column;
+        margin-top: 20px;
+    }    
+    .contact_us_section .contact_sec_content .contact_form {
+        width: 100%;
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 100%;
+        margin-top: 15px;
+    } 
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 14px;
+    }
+
+    .faq_section .sec_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .faq_section .sec_head h3 {
+        font-size: 17px;
+    }
+    .faq_section .faq_content_sec {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .service_heading_section h2 {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .service_provide_section .servie_box_sec .sec_box {
+        width: 48.5%;
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+    .service_provide_section .servie_box_sec .sec_box a {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .service_provide_section .servie_box_sec .sec_box h5 {
+        font-size: 12px;
+    }
+    .service_provide_section .servie_box_sec .sec_box p {
+        font-size: 11px;
+    }
+
+    .technology_service_section .technology_use_sec .tech_box {
+        width: 48%;
+    }
+    .technology_service_section .technology_use_sec .tech_box p {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .technology_service_section .technology_use_sec .tech_box span {
+        font-size: 13px;
+    }
+
+    .needUs_section .needs_content_sec .need_right .inner_right .inner_box h5 {
+        font-size: 13px;
+    }
+
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
     }
 }

@@ -968,14 +968,273 @@
         width: 100%;
         padding: 0 50px;
     }
+
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 40%;
+    }
+}
+@media (max-width: 991px) {
+    .contact_us_section {
+        margin-top: 30px;
+    }
+    .contact_us_section .sec_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 300px);
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 25px;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .client_section {
+        margin-top: 30px;
+    }
+    .client_section .client_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 45%;
+    }
+
+    .faq_section {
+        padding: 20px 0;
+    }
+    .faq_section .sec_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
 }
 @media (max-width: 876px) {
     .home_section{
         padding: 0 30px;
     }
+
+    .contact_us_section .contact_sec_content .contact_form form .input_box {
+        width: 100%;
+    }
+    .halfwidth {
+        width: 100%;
+    } 
+    .contact_us_section .contact_sec_content .contact_form form .input_box span {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box input {
+        height: 35px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box textarea {
+        height: 90px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .btn_sec button {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box li p {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        font-size: 14px;
+    }
+
+    .client_section .client_head h3 {
+        font-size: 19px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 52%;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .profile_sec {
+        width: 80px;
+        padding: 7px 12px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .profile_sec .avatar {
+        position: relative;
+        width: 55px;
+        height: 55px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec {
+        width: calc(100% - 80px);
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info h4 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info span {
+        font-size: 12px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info .rating i {
+        font-size: 9px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info .rating a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .quote_icon {
+        font-size: 16px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_text {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .faq_section .sec_head h3 {
+        font-size: 19px;
+    }
+    .faq_section .faq_content_sec .faq_box {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_top h6 {
+        font-size: 13px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_top a {
+        font-size: 13px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_bottom p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 260px);
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 260px;
+    }
 }
 @media (max-width: 678px) {
     .home_section {
         padding: 0 15px;
+    }
+
+    .service_background {
+        height: 280px;
+    }
+    .product_heading_section {
+        height: 280px;
+    }
+    .product_heading_section h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .product_heading_section p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 72%;
+    }
+
+    .faq_section .faq_content_sec .faq_box {
+        width: 100%;
+    }
+    .faq_section .faq_content_sec .faq_box:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 575px) {
+    .home_section {
+        padding: 0 15px;
+    }
+
+    .contact_us_section {
+        margin-top: 20px;
+    }
+    .contact_us_section .sec_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .contact_us_section .sec_head h3 {
+        font-size: 17px;
+    }
+    .contact_us_section .contact_sec_content {
+        flex-direction: column;
+        margin-top: 20px;
+    }    
+    .contact_us_section .contact_sec_content .contact_form {
+        width: 100%;
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 100%;
+        margin-top: 15px;
+    } 
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 14px;
+    }
+
+    .client_section .client_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .client_section .client_head h3 {
+        font-size: 17px;
+    }
+    .client_section .client_content_sec {
+        margin-top: 20px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info h4 {
+        font-size: 13px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info span {
+        font-size: 11px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info .rating a {
+        font-size: 11px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .quote_icon {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_text {
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .client_section .client_content_sec .pagination .swiper-pagination span.swiper-pagination-bullet-active {
+        width: 30px;
+    }
+
+    .faq_section .sec_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .faq_section .sec_head h3 {
+        font-size: 17px;
+    }
+    .faq_section .faq_content_sec {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .product_heading_section h2 {
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 84%;
     }
 }

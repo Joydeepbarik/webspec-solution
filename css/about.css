@@ -692,6 +692,7 @@
 }
 .about_description_section .bottom_sec .benefit_sec .info_section .info_bar span {
     position: relative;
+    width: calc(100% - 25px);
     font-size: 13px;
     color: var(--gray-color);
     font-weight: 400;
@@ -1119,20 +1120,594 @@
     .home_section {
         width: 1024px;
     }
+    .team_member_section .member_sec .member_box {
+        width: 30%;
+    }
 }
+
 @media (max-width: 1099px) {
     .home_section {
         width: 100%;
         padding: 0 50px;
     }
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 40%;
+    }
 }
+
+@media (max-width: 991px) {
+    .content_section .left_content {
+        width: calc(100% - 340px);
+    }
+    .content_section .left_content .left_inner {
+        padding-right: 20px;
+    }
+    .content_section .left_content .left_inner .inner_top h3 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .content_section .left_content .left_inner .inner_bottom {
+        padding: 15px 0;
+    }
+    .content_section .left_content .left_inner .inner_bottom .box h4 {
+        font-size: 19px;
+    }
+    .content_section .left_content .left_inner .inner_bottom .box p {
+        font-size: 13px;
+    }
+    .content_section .right_content {
+        width: 340px;
+        height: 360px;
+        padding: 20px;
+        padding-top: 35px;
+        padding-right: 35px;
+    }
+
+    .about_description_section {
+        margin-top: 30px;
+    }
+    .about_description_section .top_sec .top_image_sec {
+        height: 320px;
+    }
+
+    
+    .contact_us_section {
+        margin-top: 30px;
+    }
+    .contact_us_section .sec_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 300px);
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 25px;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .client_section {
+        margin-top: 30px;
+    }
+    .client_section .client_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 45%;
+    }
+
+    .team_member_section {
+        margin-top: 30px;
+    }
+    .team_member_section .team_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .faq_section {
+        padding: 20px 0;
+    }
+    .faq_section .sec_head h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
 @media (max-width: 876px) {
     .home_section{
         padding: 0 30px;
+    }
+
+    .content_section .left_content {
+        width: calc(100% - 270px);
+    }
+    .content_section .left_content .left_inner {
+        padding-right: 15px;
+    }
+    .content_section .left_content .left_inner .inner_top h3 {
+        font-size: 19px;
+    }
+    .content_section .left_content .left_inner .inner_bottom .box h4 {
+        font-size: 17px;
+    }
+    .content_section .right_content {
+        width: 270px;
+        height: 300px;
+        padding: 15px;
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+
+    .about_description_section .middle_sec .middle_content_sec .content_sec_box .box_image {
+        height: 220px;
+    }
+
+    .contact_us_section .contact_sec_content .contact_form form .input_box {
+        width: 100%;
+    }
+    .halfwidth {
+        width: 100%;
+    } 
+    .contact_us_section .contact_sec_content .contact_form form .input_box span {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box input {
+        height: 35px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .input_box textarea {
+        height: 90px;
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_form form .btn_sec button {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box li p {
+        font-size: 12px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        font-size: 14px;
+    }
+
+    .client_section .client_head h3 {
+        font-size: 19px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 52%;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .profile_sec {
+        width: 80px;
+        padding: 7px 12px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .profile_sec .avatar {
+        position: relative;
+        width: 55px;
+        height: 55px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec {
+        width: calc(100% - 80px);
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info h4 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info span {
+        font-size: 12px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info .rating i {
+        font-size: 9px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info .rating a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .quote_icon {
+        font-size: 16px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_text {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .team_member_section .team_head h3 {
+        font-size: 19px;
+    }
+    .team_member_section .member_sec .member_box {
+        width: 31.5%;
+    }
+
+    .faq_section .sec_head h3 {
+        font-size: 19px;
+    }
+    .faq_section .faq_content_sec .faq_box {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_top h6 {
+        font-size: 13px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_top a {
+        font-size: 13px;
+    }
+    .faq_section .faq_content_sec .faq_box .box_bottom p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content_section {
+        flex-direction: column;
+    }
+    .content_section .left_content {
+        width: 100%;
+    }
+    .content_section .left_content .left_inner {
+        padding-right: 0;
+    }
+    .content_section .left_content .left_inner .inner_bottom {
+        margin-top: 25px;
+    }
+    .content_section .right_content {
+        width: 100%;
+        height: 330px;
+        margin-top: 25px;
+    }
+
+    .contact_us_section .contact_sec_content .contact_form {
+        width: calc(100% - 260px);
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 260px;
     }
 }
 @media (max-width: 678px) {
     .home_section {
         padding: 0 15px;
+    }
+
+    .service_background {
+        height: 280px;
+    }
+    .about_heading_section {
+        height: 280px;
+    }
+    .about_heading_section h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .about_heading_section p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .about_description_section .top_sec .top_description_content {
+        margin-top: 15px;
+    }
+    .about_description_section .top_sec .top_description_content h4 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .about_description_section .top_sec .top_description_content p {
+        font-size: 12px;
+    }
+    .about_description_section .middle_sec {
+        margin-top: 15px;
+    }
+    .about_description_section .middle_sec .middle_head h4 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .about_description_section .middle_sec .middle_head p {
+        font-size: 12px;
+    }
+    .about_description_section .middle_sec .middle_content_sec {
+        margin-top: 15px;
+    }
+    .about_description_section .middle_sec .middle_content_sec .content_sec_box .box_item li span {
+        width: 20px;
+        font-size: 13px;
+    }
+    .about_description_section .middle_sec .middle_content_sec .content_sec_box .box_item li p {
+        width: calc(100% - 20px);
+        font-size: 11px;
+    }
+    .about_description_section .middle_sec .middle_content_sec .content_sec_box .box_image {
+        height: 180px;
+    }
+    .about_description_section .bottom_sec {
+        margin-top: 15px;
+    }
+    .about_description_section .bottom_sec .bottom_head h4 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .about_description_section .bottom_sec .bottom_head p {
+        font-size: 11px;
+    }
+    .about_description_section .bottom_sec .comapany_follow_sec {
+        margin-top: 15px;
+    }
+    .about_description_section .bottom_sec .benefit_sec {
+        margin-top: 15px;
+    }
+    .about_description_section .bottom_sec .benefit_sec h4 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .about_description_section .bottom_sec .benefit_sec p {
+        font-size: 12px;
+    }
+    .about_description_section .bottom_sec .benefit_sec .info_section .info_bar .toggle_icon {
+        width: 20px;
+        height: 20px;
+    }
+    .about_description_section .bottom_sec .benefit_sec .info_section .info_bar .toggle_icon::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about_description_section .bottom_sec .benefit_sec .info_section .info_bar span {
+        width: calc(100% - 20px);
+        font-size: 12px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 72%;
+    }
+
+    .team_member_section .member_sec .member_box {
+        width: 48.5%;
+    }
+
+    .faq_section .faq_content_sec .faq_box {
+        width: 100%;
+    }
+    .faq_section .faq_content_sec .faq_box:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 575px) {
+    .content_section {
+        margin-top: 20px;
+    }
+    .content_section .left_content .left_inner .inner_top a {
+        font-size: 13px;
+    }
+    .content_section .left_content .left_inner .inner_top h3 {
+        font-size: 17px;
+        font-weight: 500;
+        margin: 5px 0;
+    }
+    .content_section .left_content .left_inner .inner_top p {
+        font-size: 12px;
+    }
+    .content_section .left_content .left_inner .inner_top button {
+        width: 130px;
+        font-size: 12px;
+    }
+    .content_section .left_content .left_inner .inner_bottom {
+        padding: 10px 0;
+    }
+    .content_section .left_content .left_inner .inner_bottom .box h4 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .content_section .left_content .left_inner .inner_bottom .box p {
+        font-size: 12px;
+    }
+
+    .about_description_section .top_sec .top_image_sec {
+        height: 250px;
+    }
+    .about_description_section .middle_sec .middle_content_sec {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .about_description_section .middle_sec .middle_content_sec .content_sec_box {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about_description_section .bottom_sec .comapany_follow_sec .follow_box {
+        width: 48.5%;
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+    .about_description_section .bottom_sec .comapany_follow_sec .follow_box a {
+        width: 32px;
+        height: 32px;
+        font-size: 13px;
+    }
+    .about_description_section .bottom_sec .comapany_follow_sec .follow_box h6 {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .about_description_section .bottom_sec .comapany_follow_sec .follow_box p {
+        font-size: 11px;
+    }
+    .about_description_section .bottom_sec .benefit_sec .info_section .info_bar span {
+        font-size: 11px;
+    }
+
+    .contact_us_section {
+        margin-top: 20px;
+    }
+    .contact_us_section .sec_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .contact_us_section .sec_head h3 {
+        font-size: 17px;
+    }
+    .contact_us_section .contact_sec_content {
+        flex-direction: column;
+        margin-top: 20px;
+    }    
+    .contact_us_section .contact_sec_content .contact_form {
+        width: 100%;
+    }
+    .contact_us_section .contact_sec_content .contact_form form {
+        padding-right: 0;
+    }
+    .contact_us_section .contact_sec_content .contact_items {
+        width: 100%;
+        margin-top: 15px;
+    } 
+    .contact_us_section .contact_sec_content .contact_items .item_box h6 {
+        font-size: 14px;
+    }
+
+    .client_section .client_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .client_section .client_head h3 {
+        font-size: 17px;
+    }
+    .client_section .client_content_sec {
+        margin-top: 20px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info h4 {
+        font-size: 13px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info span {
+        font-size: 11px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .info .rating a {
+        font-size: 11px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_header .description_sec .quote_icon {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .client_section .client_content_sec .swiper .swiper-slide .testimonial_card .testimonial_text {
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .client_section .client_content_sec .pagination .swiper-pagination span.swiper-pagination-bullet-active {
+        width: 30px;
+    }
+
+    .team_member_section .team_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .team_member_section .team_head h3 {
+        font-size: 17px;
+    }
+    .team_member_section .member_sec .member_box .box_inner .member_image {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+    }
+    .team_member_section .member_sec .member_box .box_inner .member_description h6 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .team_member_section .member_sec .member_box .box_inner .member_description span {
+        font-size: 13px;
+    }
+    .team_member_section .member_sec .member_box .box_inner .member_description p {
+        font-size: 12px;
+    }
+    .team_member_section .member_sec .member_box .box_inner .member_description .social_media_sec a {
+        font-size: 13px;
+    }
+
+    .faq_section .sec_head a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .faq_section .sec_head h3 {
+        font-size: 17px;
+    }
+    .faq_section .faq_content_sec {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .about_heading_section h2 {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .content_section .left_content .left_inner .inner_bottom .box p {
+        font-size: 11px;
+        margin-top: 0;
+    }
+    .content_section .right_content {
+        height: 250px;
+        padding-top: 24px;
+        padding-right: 24px;
+    }
+    .content_section .right_content .content_inner .outer_border {
+        transform: translate(12px, -12px);
+    }
+    .content_section .right_content .content_inner .team_card .card_footer a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .about_description_section .top_sec .top_image_sec {
+        height: 200px;
+    }
+    .about_description_section .top_sec .top_description_content h4 {
+        font-size: 14px;
+    }
+    .about_description_section .middle_sec .middle_head h4 {
+        font-size: 14px;
+    }
+    .about_description_section .middle_sec .middle_content_sec .content_sec_box .box_item li span {
+        font-size: 11px;
+    }
+    .about_description_section .middle_sec .middle_content_sec .content_sec_box .box_item li p {
+        font-size: 10px;
+    }
+    .about_description_section .bottom_sec .bottom_head h4 {
+        font-size: 14px;
+    }
+    .about_description_section .bottom_sec .benefit_sec {
+        margin-top: 0;
+    }
+    .about_description_section .bottom_sec .benefit_sec h4 {
+        font-size: 14px;
+    }
+    .about_description_section .bottom_sec .benefit_sec .info_section .info_bar .toggle_icon {
+        width: 15px;
+        height: 15px;
+    }
+    .about_description_section .bottom_sec .benefit_sec .info_section .info_bar .toggle_icon::before {
+        width: 12px;
+        height: 12px;
+        left: -2px;
+    }
+    .contact_us_section .contact_sec_content .contact_items .item_box .social_media_sec a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .client_section .client_content_sec .swiper .swiper-slide {
+        width: 84%;
+    }
+
+    .team_member_section .member_sec {
+        margin-top: 10px;
+    }
+    .team_member_section .member_sec .member_box {
+        margin-top: 10px;
+    }
+    .team_member_section .member_sec .member_box .box_inner {
+        padding: 10px;
     }
 }
